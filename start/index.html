@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Web Helper</title>
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+	<!-- Optional theme -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+	<!-- Latest compiled and minified JavaScript -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+
+	<style>
+	*{
+		font-family: Geneva, Arial, Helvetica, sans-serif;
+	}
+	.head{
+		text-align: center;
+	}
+
+	.item{
+		width: 150px;
+		font-size: 11pt;
+		text-align: left;
+		margin-bottom: 10px;
+
+	}
+
+	.item>.text,.cb,.inp{
+		display: inline;
+	}
+
+	.text{
+		
+	}
+
+	.cb{
+		float: right;
+	}
+
+	.block{
+		margin-left: 0px;
+	}
+
+	.inp{
+		margin-top: -2px;
+		height: 25px;
+		width: 100px;
+	}
+
+
+	/* Cначала обозначаем стили для IE8 и более старых версий
+т.е. здесь мы немного облагораживаем стандартный чекбокс. */
+.checkbox {
+  vertical-align: top;
+  margin: 0 3px 0 0;
+  width: 17px;
+  height: 17px;
+}
+/* Это для всех браузеров, кроме совсем старых, которые не поддерживают
+селекторы с плюсом. Показываем, что label кликабелен. */
+.checkbox + label {
+  cursor: pointer;
+}
+
+/* Далее идет оформление чекбокса в современных браузерах, а также IE9 и выше.
+Благодаря тому, что старые браузеры не поддерживают селекторы :not и :checked,
+в них все нижеследующие стили не сработают. */
+
+/* Прячем оригинальный чекбокс. */
+.checkbox:not(checked) {
+  position: absolute;
+  opacity: 0;
+}
+.checkbox:not(checked) + label {
+  position: relative; /* будем позиционировать псевдочекбокс относительно label */
+  padding: 0 0 0 90px; /* оставляем слева от label место под псевдочекбокс */
+}
+/* Оформление первой части чекбокса в выключенном состоянии (фон). */
+.checkbox:not(checked) + label:before {
+  content: '';
+  position: absolute;
+  top: -4px;
+  left: 0;
+  width: 50px;
+  height: 26px;
+  border-radius: 13px;
+  background: #CDD1DA;
+  box-shadow: inset 0 2px 3px rgba(0,0,0,.2);
+}
+/* Оформление второй части чекбокса в выключенном состоянии (переключатель). */
+.checkbox:not(checked) + label:after {
+  content: '';
+  position: absolute;
+  top: -2px;
+  left: 2px;
+  width: 22px;
+  height: 22px;
+  border-radius: 10px;
+  background: #FFF;
+  box-shadow: 0 2px 5px rgba(0,0,0,.3);
+  transition: all .2s; /* анимация, чтобы чекбокс переключался плавно */
+}
+/* Меняем фон чекбокса, когда он включен. */
+.checkbox:checked + label:before {
+  background: #9FD468;
+}
+/* Сдвигаем переключатель чекбокса, когда он включен. */
+.checkbox:checked + label:after {
+  left: 26px;
+}
+/* Показываем получение фокуса. */
+.checkbox:focus + label:before {
+  box-shadow: 0 0 0 3px rgba(255,255,0,.5);
+}
+
+.button7 {
+  font-weight: 700;
+  color: white;
+  text-decoration: none;
+  padding: .5em 1em calc(.5em + 3px);
+  border-radius: 3px;
+  background: rgb(64,199,129);
+  box-shadow: 0 -3px rgb(53,167,110) inset;
+  transition: 0.2s;
+
+  border: 0px solid black;
+} 
+.button7:hover { background: rgb(53, 167, 110); }
+.button7:active {
+  background: rgb(33,147,90);
+  box-shadow: 0 3px rgb(33,147,90) inset;
+}
+
+.alr{
+	box-shadow: 0 0 10px red;
+}
+
+	</style>
+
+	<script>
+
+	window.onload = function () {
+		$('.inp').click(function () {
+			$('.inp').removeClass('alr');
+		})
+	}
+
+	var html = '<!DOCTYPE html>' + '\n' + '<html lang="ru">' + '\n' + '<head>' + '\n' + '	<meta charset="UTF-8">' + '\n' + '	<title>Document</title>' + '\n' + '</head>' + '\n' + '<body>' + '\n\n' + '</body>' + '\n' + '</html>';
+
+	var htmlcss = '<!DOCTYPE html>' + '\n' + '<html lang="ru">' + '\n' + '<head>' + '\n' + '	<meta charset="UTF-8">' + '\n' + '	<title>Document</title>' + '\n' + '<link rel="stylesheet" href="css/style.css">' + '\n' + '</head>' + '\n' + '<body>' + '\n\n' + '</body>' + '\n' + '</html>';
+
+	var htmlcssjs = '<!DOCTYPE html>' + '\n' + '<html lang="ru">' + '\n' + '<head>' + '\n' + '	<meta charset="UTF-8">' + '\n' + '	<title>Document</title>' + '\n' + '<link rel="stylesheet" href="css/style.css">' + '\n' + '<script src="js/script.js"></' + 'script>' + '\n' + '</head>' + '\n' + '<body>' + '\n\n' + '</body>' + '\n' + '</html>';
+
+	var htmljs = '<!DOCTYPE html>' + '\n' + '<html lang="ru">' + '\n' + '<head>' + '\n' + '	<meta charset="UTF-8">' + '\n' + '	<title>Document</title>' + '\n' + '<script src="js/script.js"></' + 'script>' + '\n' + '</head>' + '\n' + '<body>' + '\n\n' + '</body>' + '\n' + '</html>';
+
+	function reg() {
+		var fs=require('fs');
+		folder = $('.inp').val();
+		if (folder != '') {
+			fs.mkdirSync(folder);
+
+			if ($(".html").prop("checked") == true) {
+				fs.writeFileSync(folder + '/index.html', html);
+			}
+			else{
+
+			}
+			if ($(".css").prop("checked") == true) {
+				fs.mkdirSync(folder + '/css');
+				fs.writeFileSync(folder + '/index.html', htmlcss);
+				fs.writeFileSync(folder + '/css' + '/style.css', '*{' + '\n' + '  margin: 0;' + '\n' + '  padding: 0;' + '\n' + '}');
+			}
+			else{
+
+			}
+			if ($(".js").prop("checked") == true && $(".css").prop("checked") == true) {
+				fs.mkdirSync(folder + '/js');
+				fs.writeFileSync(folder + '/index.html', htmlcssjs);
+				fs.writeFileSync(folder + '/js' + '/script.js', '/*window.onload = function () {' + '\n' + '    //ваш код' + '\n' + '}*/');
+			}
+			else if($(".js").prop("checked") == true){
+				fs.mkdirSync(folder + '/js');
+				fs.writeFileSync(folder + '/index.html', htmljs);
+				fs.writeFileSync(folder + '/js' + '/script.js', '/*window.onload = function () {' + '\n' + '    //ваш код' + '\n' + '}*/');
+			}
+		}
+
+		else{
+			$('.inp').addClass('alr');
+		}
+		
+	}
+	
+	</script>
+
+</head>
+<body>
+	<!--<h4 class="head">Сборка файлов</h4>-->
+	<br>
+	<br>
+	<center><div class="block">
+		<div class="item">
+			<div class="text" style="font-weight: bold;">Folder: </div>
+			<input type="text" class="inp form-control" style="float: right; padding: 2px 3px;">
+		</div>
+		<br>
+		<div class="item">
+			<!--<div class="text">HTML</div>
+			<input type="checkbox" class="cb html">-->
+			<input type="checkbox" class="checkbox html" id="checkbox" />
+			<label for="checkbox">HTML</label>
+		</div>
+		<div class="item">
+			<!--<div class="text">CSS</div>
+			<input type="checkbox" class="cb css">-->
+			<input type="checkbox" class="checkbox css" id="checkbox1" />
+			<label for="checkbox1">CSS</label>
+		</div>
+		<div class="item">
+			<!--<div class="text">JS</div>
+			<input type="checkbox" class="cb js">-->
+			<input type="checkbox" class="checkbox js" id="checkbox2" />
+			<label for="checkbox2">JS</label>
+		</div>
+		<br>
+		<input type="button" value="Создать" onclick="reg()" class="button7">
+	</div></center>
+	
+
+</body>
+</html>

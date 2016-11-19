@@ -1,0 +1,180 @@
+[1119/183835:ERROR:resource_bundle.cc(755)] Failed to load C:\Users\Admin\Desktop\web helper\nw_100_percent.pak
+Some features may not be available.
+[1119/183852:ERROR:main_dll_loader_win.cc(133)] Failed to load NW DLL from C:\Users\Admin\Desktop\web helper\nw.dll: Не найден указанный модуль. (0x7E)
+[1119/183903:ERROR:icu_util.cc(173)] Invalid file descriptor to ICU data received.
+[1119/183903:FATAL:icu_util.cc(292)] Check failed: result. 
+Backtrace:
+	v8::CpuProfiler::Dispose [0x00007FFE38B11761+368449]
+	std::_Vector_alloc<std::_Vec_base_types<v8::CpuProfileDeoptFrame,std::allocator<v8::CpuProfileDeoptFrame> > >::_Vector_alloc<std::_Vec_base_types<v8::CpuProfileDeoptFrame,std::allocator<v8::CpuProfileDeoptFrame> > > [0x00007FFE38A9BE4C+58188]
+	v8::CpuProfiler::Dispose [0x00007FFE38B3F7C2+556962]
+	v8::HeapSpaceStatistics::space_size [0x00007FFE387A2C64+145060]
+	v8::HeapSpaceStatistics::space_size [0x00007FFE387A2505+143173]
+	ChromeMain [0x00007FFE376E59F6+198]
+	(No symbol) [0x00007FF7857C56B2]
+	(No symbol) [0x00007FF7857C2EDF]
+	IsSandboxedProcess [0x00007FF78582F902+123922]
+	BaseThreadInitThunk [0x00007FFE65528102+34]
+	RtlUserThreadStart [0x00007FFE667CC5B4+52]
+
+[1119/183904:ERROR:process_info.cc(608)] range at 0xe3fb1a7400000000, size 0x246 fully unreadable
+[1119/183904:ERROR:process_info.cc(608)] range at 0xe3fb1a9400000000, size 0x246 fully unreadable
+[1119/183904:ERROR:process_info.cc(608)] range at 0x0, size 0x246 fully unreadable
+[1119/183904:WARNING:in_range_cast.h(38)] value 2503495963946 out of range
+[1119/183904:WARNING:in_range_cast.h(38)] value 2503495962474 out of range
+[1119/183904:WARNING:in_range_cast.h(38)] value 2503495963986 out of range
+[1119/183904:WARNING:in_range_cast.h(38)] value 108084205055182070 out of range
+[1119/183909:ERROR:resource_bundle.cc(755)] Failed to load C:\Users\Admin\Desktop\web helper\nw_100_percent.pak
+Some features may not be available.
+[1119/183924:ERROR:resource_bundle.cc(755)] Failed to load C:\Users\Admin\Desktop\web helper\nw_100_percent.pak
+Some features may not be available.
+[1119/183933:ERROR:resource_bundle.cc(755)] Failed to load C:\Users\Admin\Desktop\web helper\nw_100_percent.pak
+Some features may not be available.
+[1119/183940:ERROR:resource_bundle.cc(755)] Failed to load C:\Users\Admin\Desktop\web helper\nw_100_percent.pak
+Some features may not be available.
+[1119/183948:ERROR:resource_bundle.cc(755)] Failed to load C:\Users\Admin\Desktop\web helper\nw_100_percent.pak
+Some features may not be available.
+[1119/183948:ERROR:process_info.cc(608)] range at 0x67fc438e00000000, size 0x214 fully unreadable
+[1119/183948:ERROR:process_info.cc(608)] range at 0x67fc43ae00000000, size 0x214 fully unreadable
+[1119/183948:ERROR:process_info.cc(608)] range at 0x0, size 0x214 fully unreadable
+[1119/183948:WARNING:in_range_cast.h(38)] value 2286667174602 out of range
+[1119/183948:WARNING:in_range_cast.h(38)] value 2286667173130 out of range
+[1119/183948:WARNING:in_range_cast.h(38)] value 2286667174642 out of range
+[1119/183948:WARNING:in_range_cast.h(38)] value 108084205055182070 out of range
+[1119/184328:ERROR:resource_bundle.cc(755)] Failed to load C:\Users\Admin\Desktop\web helper\nw_100_percent.pak
+Some features may not be available.
+[1119/185600:ERROR:resource_bundle.cc(755)] Failed to load C:\Users\Admin\Desktop\web helper\nw_100_percent.pak
+Some features may not be available.
+[1119/185726:ERROR:resource_bundle.cc(755)] Failed to load C:\Users\Admin\Desktop\web helper\nw_100_percent.pak
+Some features may not be available.
+[1119/185830:ERROR:resource_bundle.cc(755)] Failed to load C:\Users\Admin\Desktop\web helper\nw_100_percent.pak
+Some features may not be available.
+[1119/185849:ERROR:resource_bundle.cc(755)] Failed to load C:\Users\Admin\Desktop\web helper\nw_100_percent.pak
+Some features may not be available.
+[1119/185914:ERROR:resource_bundle.cc(755)] Failed to load C:\Users\Admin\Desktop\web helper\nw_100_percent.pak
+Some features may not be available.
+[1119/185927:ERROR:resource_bundle.cc(755)] Failed to load C:\Users\Admin\Desktop\web helper\nw_100_percent.pak
+Some features may not be available.
+[1119/185945:ERROR:resource_bundle.cc(755)] Failed to load C:\Users\Admin\Desktop\web helper\nw_100_percent.pak
+Some features may not be available.
+[1119/190025:ERROR:resource_bundle.cc(755)] Failed to load C:\Users\Admin\Desktop\web helper\nw_100_percent.pak
+Some features may not be available.
+[1119/190054:ERROR:resource_bundle.cc(755)] Failed to load C:\Users\Admin\Desktop\web helper\nw_100_percent.pak
+Some features may not be available.
+[1119/190123:ERROR:resource_bundle.cc(755)] Failed to load C:\Users\Admin\Desktop\web helper\nw_100_percent.pak
+Some features may not be available.
+[1119/190155:ERROR:resource_bundle.cc(755)] Failed to load C:\Users\Admin\Desktop\web helper\nw_100_percent.pak
+Some features may not be available.
+[1119/190331:ERROR:resource_bundle.cc(755)] Failed to load C:\Users\Admin\Desktop\web helper\nw_100_percent.pak
+Some features may not be available.
+[1119/190344:ERROR:resource_bundle.cc(755)] Failed to load C:\Users\Admin\Desktop\web helper\nw_100_percent.pak
+Some features may not be available.
+[1119/190353:ERROR:resource_bundle.cc(755)] Failed to load C:\Users\Admin\Desktop\web helper\nw_100_percent.pak
+Some features may not be available.
+[1119/195711:ERROR:resource_bundle.cc(755)] Failed to load C:\Users\Admin\Desktop\web helper\nw_100_percent.pak
+Some features may not be available.
+[1119/195828:ERROR:resource_bundle.cc(755)] Failed to load C:\Users\Admin\Desktop\web helper\nw_100_percent.pak
+Some features may not be available.
+[1119/200101:ERROR:resource_bundle.cc(755)] Failed to load C:\Users\Admin\Desktop\web helper\nw_100_percent.pak
+Some features may not be available.
+[1119/200904:ERROR:resource_bundle.cc(755)] Failed to load C:\Users\Admin\Desktop\web helper\nw_100_percent.pak
+Some features may not be available.
+[1119/201005:ERROR:resource_bundle.cc(755)] Failed to load C:\Users\Admin\Desktop\web helper\nw_100_percent.pak
+Some features may not be available.
+[1119/201350:ERROR:resource_bundle.cc(755)] Failed to load C:\Users\Admin\Desktop\web helper\nw_100_percent.pak
+Some features may not be available.
+[1119/201512:ERROR:resource_bundle.cc(755)] Failed to load C:\Users\Admin\Desktop\web helper\nw_100_percent.pak
+Some features may not be available.
+[1119/202228:ERROR:resource_bundle.cc(755)] Failed to load C:\Users\Admin\Desktop\web helper\nw_100_percent.pak
+Some features may not be available.
+[1119/203055:ERROR:resource_bundle.cc(755)] Failed to load C:\Users\Admin\Desktop\web helper\nw_100_percent.pak
+Some features may not be available.
+[1119/204303:ERROR:resource_bundle.cc(755)] Failed to load C:\Users\Admin\Desktop\web helper\nw_100_percent.pak
+Some features may not be available.
+[1119/204419:ERROR:resource_bundle.cc(755)] Failed to load C:\Users\Admin\Desktop\web helper\nw_100_percent.pak
+Some features may not be available.
+[1119/204520:ERROR:resource_bundle.cc(755)] Failed to load C:\Users\Admin\Desktop\web helper\nw_100_percent.pak
+Some features may not be available.
+[1119/204639:ERROR:resource_bundle.cc(755)] Failed to load C:\Users\Admin\Desktop\web helper\nw_100_percent.pak
+Some features may not be available.
+[1119/204723:ERROR:resource_bundle.cc(755)] Failed to load C:\Users\Admin\Desktop\web helper\nw_100_percent.pak
+Some features may not be available.
+[1119/210554:ERROR:resource_bundle.cc(755)] Failed to load C:\Users\Admin\Desktop\web helper\nw_100_percent.pak
+Some features may not be available.
+[1119/210607:ERROR:resource_bundle.cc(755)] Failed to load C:\Users\Admin\Desktop\web helper\nw_100_percent.pak
+Some features may not be available.
+[1119/210626:ERROR:resource_bundle.cc(755)] Failed to load C:\Users\Admin\Desktop\web helper\nw_100_percent.pak
+Some features may not be available.
+[1119/211241:ERROR:resource_bundle.cc(755)] Failed to load C:\Users\Admin\Desktop\web helper\nw_100_percent.pak
+Some features may not be available.
+[1119/211326:ERROR:resource_bundle.cc(755)] Failed to load C:\Users\Admin\Desktop\web helper\nw_100_percent.pak
+Some features may not be available.
+[1119/211439:ERROR:resource_bundle.cc(755)] Failed to load C:\Users\Admin\Desktop\web helper\nw_100_percent.pak
+Some features may not be available.
+[1119/211735:ERROR:resource_bundle.cc(755)] Failed to load C:\Users\Admin\Desktop\web helper\nw_100_percent.pak
+Some features may not be available.
+[1119/211758:ERROR:resource_bundle.cc(755)] Failed to load C:\Users\Admin\Desktop\web helper\nw_100_percent.pak
+Some features may not be available.
+[1119/212024:ERROR:resource_bundle.cc(755)] Failed to load C:\Users\Admin\Desktop\web helper\nw_100_percent.pak
+Some features may not be available.
+[1119/212929:ERROR:resource_bundle.cc(755)] Failed to load C:\Users\Admin\Desktop\web helper\nw_100_percent.pak
+Some features may not be available.
+[1119/213015:ERROR:resource_bundle.cc(755)] Failed to load C:\Users\Admin\Desktop\web helper\nw_100_percent.pak
+Some features may not be available.
+[1119/213809:ERROR:resource_bundle.cc(755)] Failed to load C:\Users\Admin\Desktop\web helper\nw_100_percent.pak
+Some features may not be available.
+[1119/213854:ERROR:resource_bundle.cc(755)] Failed to load C:\Users\Admin\Desktop\web helper\nw_100_percent.pak
+Some features may not be available.
+[1119/213936:ERROR:resource_bundle.cc(755)] Failed to load C:\Users\Admin\Desktop\web helper\nw_100_percent.pak
+Some features may not be available.
+[1119/214009:ERROR:resource_bundle.cc(755)] Failed to load C:\Users\Admin\Desktop\web helper\nw_100_percent.pak
+Some features may not be available.
+[1119/214713:ERROR:resource_bundle.cc(755)] Failed to load C:\Users\Admin\Desktop\web helper\nw_100_percent.pak
+Some features may not be available.
+[1119/214800:ERROR:resource_bundle.cc(755)] Failed to load C:\Users\Admin\Desktop\web helper\nw_100_percent.pak
+Some features may not be available.
+[1119/215211:ERROR:resource_bundle.cc(755)] Failed to load C:\Users\Admin\Desktop\web helper\nw_100_percent.pak
+Some features may not be available.
+[1119/215255:ERROR:resource_bundle.cc(755)] Failed to load C:\Users\Admin\Desktop\web helper\nw_100_percent.pak
+Some features may not be available.
+[1119/215332:ERROR:resource_bundle.cc(755)] Failed to load C:\Users\Admin\Desktop\web helper\nw_100_percent.pak
+Some features may not be available.
+[1119/215355:ERROR:resource_bundle.cc(755)] Failed to load C:\Users\Admin\Desktop\web helper\nw_100_percent.pak
+Some features may not be available.
+[1119/215440:ERROR:resource_bundle.cc(755)] Failed to load C:\Users\Admin\Desktop\web helper\nw_100_percent.pak
+Some features may not be available.
+[1119/220359:ERROR:resource_bundle.cc(755)] Failed to load C:\Users\Admin\Desktop\web helper\nw_100_percent.pak
+Some features may not be available.
+[1119/220505:ERROR:resource_bundle.cc(755)] Failed to load C:\Users\Admin\Desktop\web helper\nw_100_percent.pak
+Some features may not be available.
+[1119/220552:ERROR:resource_bundle.cc(755)] Failed to load C:\Users\Admin\Desktop\web helper\nw_100_percent.pak
+Some features may not be available.
+[1119/220747:ERROR:resource_bundle.cc(755)] Failed to load C:\Users\Admin\Desktop\web helper\nw_100_percent.pak
+Some features may not be available.
+[1119/220759:ERROR:resource_bundle.cc(755)] Failed to load C:\Users\Admin\Desktop\web helper\nw_100_percent.pak
+Some features may not be available.
+[1119/220831:ERROR:resource_bundle.cc(755)] Failed to load C:\Users\Admin\Desktop\web helper\nw_100_percent.pak
+Some features may not be available.
+[1119/220846:ERROR:resource_bundle.cc(755)] Failed to load C:\Users\Admin\Desktop\web helper\nw_100_percent.pak
+Some features may not be available.
+[1119/220956:ERROR:resource_bundle.cc(755)] Failed to load C:\Users\Admin\Desktop\web helper\nw_100_percent.pak
+Some features may not be available.
+[1119/221040:ERROR:resource_bundle.cc(755)] Failed to load C:\Users\Admin\Desktop\web helper\nw_100_percent.pak
+Some features may not be available.
+[1119/221435:ERROR:resource_bundle.cc(755)] Failed to load C:\Users\Admin\Desktop\web helper\nw_100_percent.pak
+Some features may not be available.
+[1119/221526:ERROR:resource_bundle.cc(755)] Failed to load C:\Users\Admin\Desktop\web helper\nw_100_percent.pak
+Some features may not be available.
+[1119/221611:ERROR:resource_bundle.cc(755)] Failed to load C:\Users\Admin\Desktop\web helper\nw_100_percent.pak
+Some features may not be available.
+[1119/221802:ERROR:resource_bundle.cc(755)] Failed to load C:\Users\Admin\Desktop\web helper\nw_100_percent.pak
+Some features may not be available.
+[1119/221848:ERROR:resource_bundle.cc(755)] Failed to load C:\Users\Admin\Desktop\web helper\nw_100_percent.pak
+Some features may not be available.
+[1119/222030:ERROR:resource_bundle.cc(755)] Failed to load C:\Users\Admin\Desktop\web helper\nw_100_percent.pak
+Some features may not be available.
+[1119/222118:ERROR:resource_bundle.cc(755)] Failed to load C:\Users\Admin\Desktop\web helper\nw_100_percent.pak
+Some features may not be available.
+[1119/222745:ERROR:resource_bundle.cc(755)] Failed to load C:\Users\Admin\Desktop\web helper\nw_100_percent.pak
+Some features may not be available.
+[1119/223230:ERROR:resource_bundle.cc(755)] Failed to load C:\Users\Admin\Desktop\web helper\start\nw_100_percent.pak
+Some features may not be available.

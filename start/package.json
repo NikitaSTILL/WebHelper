@@ -1,0 +1,22 @@
+{
+  "name": "Web Helper",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.html",
+  "author": "Nikita Kudinov",
+  "window": {
+    "toolbar": false,
+    "width": 235,
+    "height": 285,
+    "min_width": 235,
+    "min_height": 235,
+    "max_width": 235,
+    "max_height": 285,
+    "position": "center",
+    "icon": "ico.png"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "pretty-bytes": "^1.0.2"
+  }
+}

@@ -1,0 +1,79 @@
+[1119/183720:ERROR:resource_bundle.cc(755)] Failed to load C:\Users\Admin\Desktop\web helper\nw_100_percent.pak
+Some features may not be available.
+[1119/183725:ERROR:resource_bundle.cc(755)] Failed to load C:\Users\Admin\Desktop\web helper\nw_100_percent.pak
+Some features may not be available.
+[1119/183737:ERROR:process_info.cc(608)] range at 0x97731a7400000000, size 0x296 fully unreadable
+[1119/183737:ERROR:process_info.cc(608)] range at 0x97731a9400000000, size 0x296 fully unreadable
+[1119/183737:ERROR:process_info.cc(608)] range at 0x0, size 0x296 fully unreadable
+[1119/183737:WARNING:in_range_cast.h(38)] value 2845858398154 out of range
+[1119/183737:WARNING:in_range_cast.h(38)] value 2845858396682 out of range
+[1119/183737:WARNING:in_range_cast.h(38)] value 2845858398194 out of range
+[1119/183737:WARNING:in_range_cast.h(38)] value 2845809559344 out of range
+[1119/183737:WARNING:in_range_cast.h(38)] value 108084205055182070 out of range
+[1119/183737:WARNING:in_range_cast.h(38)] value 2845809701200 out of range
+[1119/183752:FATAL:v8_initializer.cc(167)] Failed to open V8 file 'C:\Users\Admin\Desktop\web helper\natives_blob.bin' (reason: -4)
+Backtrace:
+	v8::CpuProfiler::Dispose [0x00007FFE38B11761+368449]
+	std::_Vector_alloc<std::_Vec_base_types<v8::CpuProfileDeoptFrame,std::allocator<v8::CpuProfileDeoptFrame> > >::_Vector_alloc<std::_Vec_base_types<v8::CpuProfileDeoptFrame,std::allocator<v8::CpuProfileDeoptFrame> > > [0x00007FFE38A9BE4C+58188]
+	IsSandboxedProcess [0x00007FFE3982F357+749955]
+	IsSandboxedProcess [0x00007FFE3982F072+749214]
+	IsSandboxedProcess [0x00007FFE3982EE14+748608]
+	v8::HeapSpaceStatistics::space_size [0x00007FFE387A2CAF+145135]
+	v8::HeapSpaceStatistics::space_size [0x00007FFE387A2505+143173]
+	ChromeMain [0x00007FFE376E59F6+198]
+	(No symbol) [0x00007FF7857C56B2]
+	(No symbol) [0x00007FF7857C2EDF]
+	IsSandboxedProcess [0x00007FF78582F902+123922]
+	BaseThreadInitThunk [0x00007FFE65528102+34]
+	RtlUserThreadStart [0x00007FFE667CC5B4+52]
+
+[1119/183752:ERROR:process_info.cc(608)] range at 0xd2101a7400000000, size 0x293 fully unreadable
+[1119/183752:ERROR:process_info.cc(608)] range at 0xd2101a9400000000, size 0x293 fully unreadable
+[1119/183752:ERROR:process_info.cc(608)] range at 0x0, size 0x293 fully unreadable
+[1119/183752:WARNING:in_range_cast.h(38)] value 2833907842474 out of range
+[1119/183752:WARNING:in_range_cast.h(38)] value 2833907841002 out of range
+[1119/183752:WARNING:in_range_cast.h(38)] value 2833907842514 out of range
+[1119/183752:WARNING:in_range_cast.h(38)] value 108084205055182070 out of range
+[1119/183800:FATAL:v8_initializer.cc(167)] Failed to open V8 file 'C:\Users\Admin\Desktop\web helper\natives_blob.bin' (reason: -4)
+Backtrace:
+	v8::CpuProfiler::Dispose [0x00007FFE38B11761+368449]
+	std::_Vector_alloc<std::_Vec_base_types<v8::CpuProfileDeoptFrame,std::allocator<v8::CpuProfileDeoptFrame> > >::_Vector_alloc<std::_Vec_base_types<v8::CpuProfileDeoptFrame,std::allocator<v8::CpuProfileDeoptFrame> > > [0x00007FFE38A9BE4C+58188]
+	IsSandboxedProcess [0x00007FFE3982F357+749955]
+	IsSandboxedProcess [0x00007FFE3982F072+749214]
+	IsSandboxedProcess [0x00007FFE3982EE14+748608]
+	v8::HeapSpaceStatistics::space_size [0x00007FFE387A2CAF+145135]
+	v8::HeapSpaceStatistics::space_size [0x00007FFE387A2505+143173]
+	ChromeMain [0x00007FFE376E59F6+198]
+	(No symbol) [0x00007FF7857C56B2]
+	(No symbol) [0x00007FF7857C2EDF]
+	IsSandboxedProcess [0x00007FF78582F902+123922]
+	BaseThreadInitThunk [0x00007FFE65528102+34]
+	RtlUserThreadStart [0x00007FFE667CC5B4+52]
+
+[1119/183800:ERROR:process_info.cc(608)] range at 0xdc01a7400000000, size 0x257 fully unreadable
+[1119/183800:ERROR:process_info.cc(608)] range at 0xdc01a9400000000, size 0x257 fully unreadable
+[1119/183800:ERROR:process_info.cc(608)] range at 0x0, size 0x257 fully unreadable
+[1119/183800:WARNING:in_range_cast.h(38)] value 2572916232730 out of range
+[1119/183800:WARNING:in_range_cast.h(38)] value 2572916231258 out of range
+[1119/183800:WARNING:in_range_cast.h(38)] value 2572916232770 out of range
+[1119/183800:WARNING:in_range_cast.h(38)] value 108084205055182070 out of range
+[1119/183805:ERROR:resource_bundle.cc(755)] Failed to load C:\Users\Admin\Desktop\web helper\nw_100_percent.pak
+Some features may not be available.
+[1119/183818:ERROR:process_info.cc(608)] range at 0x15251a7400000000, size 0x175 fully unreadable
+[1119/183818:ERROR:process_info.cc(608)] range at 0x15251a9400000000, size 0x175 fully unreadable
+[1119/183818:ERROR:process_info.cc(608)] range at 0x0, size 0x175 fully unreadable
+[1119/183818:WARNING:in_range_cast.h(38)] value 1602426429274 out of range
+[1119/183818:WARNING:in_range_cast.h(38)] value 1602426427802 out of range
+[1119/183818:WARNING:in_range_cast.h(38)] value 1602426429314 out of range
+[1119/183818:WARNING:in_range_cast.h(38)] value 1602377862912 out of range
+[1119/183818:WARNING:in_range_cast.h(38)] value 108084205055182070 out of range
+[1119/183818:WARNING:in_range_cast.h(38)] value 1602378005824 out of range
+[1119/183826:ERROR:process_info.cc(608)] range at 0xa8771a7400000000, size 0x16c fully unreadable
+[1119/183826:ERROR:process_info.cc(608)] range at 0xa8771a9400000000, size 0x16c fully unreadable
+[1119/183826:ERROR:process_info.cc(608)] range at 0x0, size 0x16c fully unreadable
+[1119/183826:WARNING:in_range_cast.h(38)] value 1566243198858 out of range
+[1119/183826:WARNING:in_range_cast.h(38)] value 1566243197386 out of range
+[1119/183826:WARNING:in_range_cast.h(38)] value 1566243198898 out of range
+[1119/183826:WARNING:in_range_cast.h(38)] value 1566194768944 out of range
+[1119/183826:WARNING:in_range_cast.h(38)] value 108084205055182070 out of range
+[1119/183826:WARNING:in_range_cast.h(38)] value 1566194880800 out of range
